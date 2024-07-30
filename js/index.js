@@ -15,3 +15,23 @@ Infine stampa in console nomecognomecolorepreferito21
 6.Print to the console this result: firstNamelastNamefavoriteColor21
 7.Bonus: Insert the result in DOM element.
 */
+
+// --- Preparation phase
+
+// Retrieve the p element
+const resultElement = document.getElementById("password");
+console.log(resultElement);
+// Create const variable for '21'
+const twentyOne = "21";
+
+// ---- Data collection phase
+
+// Ask the user for the firstName
+const firstName = prompt("Your First Name please?", "orsol");
+console.log(firstName);
+// Ask the user for the firstName
+const lastName = prompt("Your Last Name please?", "filaj");
+console.log(lastName);
+// Ask the user for the favoriteColor
+const favoriteColor = prompt("Your Last Name please?", "lightblue");
+console.log(favoriteColor);
