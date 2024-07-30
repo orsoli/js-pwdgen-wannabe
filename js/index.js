@@ -35,3 +35,14 @@ console.log(lastName);
 // Ask the user for the favoriteColor
 const favoriteColor = prompt("Your Last Name please?", "lightblue");
 console.log(favoriteColor);
+
+// ---- Processing phase
+
+// Generate the new password
+const newPassword = firstName + lastName + favoriteColor + twentyOne;
+
+// Print to the console newPassword
+console.log(newPassword);
+
+//BONUS. Insert the newPassword in DOM elemnt
+resultElement.innerText = newPassword;
