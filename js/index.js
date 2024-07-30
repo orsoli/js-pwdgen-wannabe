@@ -27,13 +27,13 @@ const twentyOne = "21";
 // ---- Data collection phase
 
 // Ask the user for the firstName
-const firstName = prompt("Your First Name please?", "orsol");
+const firstName = prompt("Please enter your First Name", "orsol");
 console.log(firstName);
 // Ask the user for the firstName
-const lastName = prompt("Your Last Name please?", "filaj");
+const lastName = prompt("Please enter your Last Name", "filaj");
 console.log(lastName);
 // Ask the user for the favoriteColor
-const favoriteColor = prompt("Your Last Name please?", "lightblue");
+const favoriteColor = prompt("Please enter your favorite color", "lightblue");
 console.log(favoriteColor);
 
 // ---- Processing phase
